@@ -8,8 +8,8 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
     x = random(0, width);
     y = random(0, height);
-    speedX = random(-6, 6);
-    speedY = random(-6, 6);
+    speedX = random(-5, 5);
+    speedY = random(-5, 5);
     background(0, 0, 0);
   }
   
