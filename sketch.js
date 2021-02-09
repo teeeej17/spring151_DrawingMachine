@@ -8,7 +8,7 @@ function draw() {
   const greenVal = map(mouseY, 0, height, 0, 255);
 
   translate(mouseX, mouseY);
-  const rotation = map(mouseY, 0, height, 0, TWO_PI);
+  const rotation = map(mouseY, 0, height, 0, PI);
   rotate(rotation);
   stroke(redVal, greenVal, 255);
   line(-250, 0, 250, 0); 
