@@ -5,6 +5,7 @@ let speedY = 5;
 
 
 function setup() {
+  alert("I named this assignment Random Patterns because I think there's an interesting relationship between how we use those words and how it's visualized in this.  There's a lot of random movement in this, yet it still manages to make patterns we can recognize.  I tired to include a couple interactions but couldn't figure it out because I'm garbage at coding.");
     createCanvas(windowWidth, windowHeight);
     x = random(0, width);
     y = random(0, height);
