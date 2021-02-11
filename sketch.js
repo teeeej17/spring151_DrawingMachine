@@ -5,6 +5,7 @@ let speedY = 5;
 
 
 function setup() {
+  alert(this is the message);
     createCanvas(windowWidth, windowHeight);
     x = random(0, width);
     y = random(0, height);
