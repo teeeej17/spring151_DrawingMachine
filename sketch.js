@@ -5,7 +5,6 @@ let speedY = 5;
 
 
 function setup() {
-  alert(I titled this Random Patterns because there is an interesting relationship between how we undestand those words and how it is visualized in this.  We normally do not associate those two words together, but as random as the movement is with this, it still manages to create patterns.);
     createCanvas(windowWidth, windowHeight);
     x = random(0, width);
     y = random(0, height);
